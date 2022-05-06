@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ua" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Степан Бандера</title>
+        <style type="text/css">
+            a{
+                color: #fff;
+                text-decoration: none;
+            }
+            html{
+                background: #9F9F9F ;
+                min-height: 100%;
+                font-family: Helvetica;
+                display: flex;
+                flex-direction: column;
+            }
+            body{
+                margin: 0;
+                padding: 0 15px;
+                display: flex;
+                flex-direction: column;
+                flex: auto;
+            }
+            h1{
+                margin-top: 0;
+            }
+            h1, p{
+                color: #000000;
+            }
+            img{
+                border: 0;
+            }
+            .header{
+                width: 100%;
+                min-width: 460px;
+                max-width: 960px;
+                margin: 0 auto 30px;
+                padding: 30px 0 10px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                box-sizing: border-box;
+            }
+            .logo{
+                font-size: 1.5rem;
+                color: #fff;
+                text-decoration: none;
+                margin: 5px 0 0 5px;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                align-items: center;
+                background: #000000;
+                width: 130px;
+                height: 50px;
+            }
+            .nav{
+                margin: -5px 0 0 -5px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .nav-item{
+                background: #fff;
+                width: 130px;
+                height: 50px;
+                font-size: 1.5rem;
+                color: #000000;
+                text-decoration: none;
+                display: flex;
+                margin: 5px 0 0 5px;
+                justify-content: center;
+                align-items: center;
+            }
+            .sqr{
+                height: 300px;
+                width: 300px;
+                background: #fff;
+            }
+
+            .main{
+                width: 100%;
+                min-width: 460px;
+                max-width: 960px;
+                margin: auto;
+                flex: auto;
+                box-sizing: border-box;
+            }
+            .box{
+                font-size: 1.25rem;
+                line-height: 1.5;
+                margin: 0 0 40px -50px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .box-base{
+                margin-left: 50px;
+                flex: 1 0 430px;
+            }
+            .box-side{
+                margin-left: 50px;
+                font: none;
+            }
+            .box-img{
+                max-width: 100%;
+                height: auto;
+            }
+            .content{
+                margin-bottom: 30px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .banners{
+                flex: 1 1 200px;
+            }
+            .banner{
+                background: #fff;
+                width: 100%;
+                min-width: 100px;
+                min-height: 200px;
+                font-size: 3rem;
+                color: #000000;
+                margin: 0 0 30px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .posts{
+                margin: 0 0 30px 30px;
+                flex: 1 1 200px;
+            }
+            .comments{
+                margin: 0 0 30px 30px;
+                flex: 1 1 200px;
+            }
+            .comment{
+                display: flex;
+            }
+            .comment-side{
+                padding-right: 20px;
+                flex: none;
+            }
+            .comment-base{
+                flex: auto;
+            }
+            .comment-avatar{
+                background: #000000;
+                width: 50px;
+                height: 50px;
+            }
+            .footer{
+                background: #000000;
+                width: 100%;
+                max-width: 960px;
+                min-width: 460px;
+                color: #fff;
+                margin: auto;
+                padding: 15px;
+                box-sizing: border-box;
+            }
+
+            @media screen and  (max-width: 800px) {
+                .banners{
+                    margin-left: -30px;
+                    display: flex;
+                    flex-basis: 100%;
+                }
+                .banner{
+                    margin-left: 30px;
+                }
+                .posts{
+                    margin-left: 0;
+                }
+            }
+            @media screen and  (max-width: 600px) {
+                .content{
+                    display: block;
+                }
+                .banners{
+                    margin: 0;
+                    display: block;
+                }
+                .banner{
+                    margin-left: 0;
+                }
+                .posts{
+                    margin: 0;
+                }
+            }
+        </style>
+    </head>
+<body>
+    <header class="header">
+        <a class="logo">
+            ГОЛОВНА
+        </a>
+        <nav class="nav">
+            <a href="#posts" class="nav-item">ПОСТИ</a>
+            <a href="#comments" class="nav-item">КОМЕНТ.</a>
+            <a href="#footer" class="nav-item">ПІДВАЛ</a>
+            <a href="#posts" class="nav-item">ПОСТИ</a>
+        </nav>
+
+    </header>
+    <main class="main">
+        <div class="box">
+            <div class="box-base">
+                <h1>Степан Андрійович Бандера</h1>
+                <p>Степа́н Андрі́йович Банде́ра (1 січня 1909, с. Старий Угринів, нині Калуського району, Івано-Франківська область, Україна — 15 жовтня 1959, Мюнхен, Баварія, ФРН) — український політичний діяч, один із чільних ідеологів і теоретиків українського націоналістичного руху XX століття, після розколу Організації українських націоналістів — голова Проводу ОУН-Б.Як активний діяч УВО та ОУН має законодавчо визначений статус Борець за незалежність України у ХХ сторіччі.</p>
+            </div>
+            <div class="box-side">
+                    <img src="SBandera.jpg" alt="Bandera">
+            </div>
+        </div>
+        <div class="content">
+            <div class="banners">
+                <div class="banner"> <img src="Bandera_plast_1923.jpg"> </div>
+                <div class="banner"> <img src="Stepan_Bandera_in_cossack_uniform.jpg"> </div>
+                <div class="banner"> <img src="330px-thumbnail.jpg"> </div>
+            </div>
+            <div class="posts"  id="posts">
+                <div class="post">
+                    <h1>Дитячі роки (1909—1927)</h1>
+                    <p>Батько, о. Андрій Михайлович Бандера, був греко-католицьким священником і походив з родини стрийських міщан-хліборобів Михайла й Розалії Бандер. Дружина Андрія Михайловича, Мирослава Володимирівна була дочкою греко-католицького священника зі о. Володимира Ґлодзінського і його дружини Катерини. Степан був другою дитиною в сім'ї після старшої сестри Марти-Марії. Надалі в сім'ї народилося ще шестеро дітей: Олександр, Володимир, Василь, Оксана, Богдан і Мирослава</p>
+                </div>
+                <div class="post">
+                    <h1>Юність (1927—1934)</h1>
+                    <p>У 1932–1933 рр. виконував функцію заступника крайового провідника, а в середині 1933 р. був призначений крайовим провідником ОУН.Під керівництвом Бандери, ОУН відходить від експропріаційних акцій і починає серію каральних акцій проти представників польської окупаційної влади.Степан Бандера здійснював загальне керівництво замахами на Майлова та Перацького. Навесні 1922 р. від туберкульозу горла померла його мати.</p>
+                </div>
+                <div class="post">
+                    <h1>Останні роки</h1>
+                    <p>В Мюнхені Степан Бандера провів останні роки життя, проживаючи під паспортом на ім'я Штефан Попель. За однією з версій, паспорт залишився йому від львівського шахіста Степана Попеля, який у 1944 р. покинув Україну, на початку 1950-х років жив у Парижі, а 1956 року переїхав до США.</p>
+                </div>
+            </div>
+            <div class="comments"  id="comments">
+                <div class="comment">
+                    <div class="comment-side">
+                        <div class="comment-avatar">
+
+                        </div>
+                    </div>
+                    <div class="comment-base">
+                        <h1 class="comment-title"></h1>
+                        <p>З дитинства С. Бандера був свідком відродження й розбудови Української держави. З листопада 1918 його батько був послом до парламенту Західноукраїнської Народної Республіки — Української Національної Ради — в Станиславові й брав активну участь у формуванні державного життя Калущини.</p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment-side">
+                        <div class="comment-avatar">
+
+                        </div>
+                    </div>
+                    <div class="comment-base">
+                        <h1 class="comment-title"></h1>
+                        <p>У студентські роки брав активну участь в організованому українському національному житті. У вільний час залюбки грав у шахи, крім того, співав у хорі та грав на гітарі й мандоліні. Не палив і не вживав алкогольних напоїв. </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comment-side">
+                        <div class="comment-avatar">
+
+                        </div>
+                    </div>
+                    <div class="comment-base">
+                        <h1 class="comment-title"></h1>
+                        <p>15 жовтня 1959 року в під'їзді будинку на вулиці Крайтмайр 7, в Мюнхені о 13:05 знайшли ще живого залитого кров'ю Степана Бандеру. Медична експертиза виявила, що причиною смерті була отрута. Богдан Сташинський зі спеціального пістолета вистрілив в обличчя Степану Бандері струменем розчину ціаніду калію. Німецький Верховний Суд у Карлсруе затвердив, що головним обвинуваченим у вбивстві Бандери є радянський уряд у Москві. В інтерв'ю російській газеті «Комсомольская правда», оприлюдненому у номері за 6 грудня 2005 року, колишній голова КДБ СРСР Володимир Крючков визнав, що «вбивство Степана Бандери було одним з останніх усунень КДБ насильницькими методами небажаних елементів».</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer"  id="footer">
+       Більше інформації про Степана Бандеру ви можете подивитись <a href="https://uk.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D0%B4%D0%B5%D1%80%D0%B0_%D0%A1%D1%82%D0%B5%D0%BF%D0%B0%D0%BD_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87" target="_blank"><strong>ТУТ</strong></a>
+    </footer>
+</body>
+</html>
